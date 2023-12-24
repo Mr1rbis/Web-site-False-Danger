@@ -1,0 +1,179 @@
+@font-face {
+    font-family: minecraftrus;
+    src: url(fonts/minecraft.ttf);
+   }
+body{
+	background-image: url(bacground_images/mainfon.png);
+	font-family: minecraftrus;
+    text-align: center;
+    background-attachment: fixed;    
+}
+.sett{
+    position: fixed;
+    margin-top: -120px;
+    z-index: -500;
+    }
+ .sett1{
+    position: fixed;
+    z-index: -1000;
+    padding: 5px;
+    /* border: 2px solid aqua; */
+    background-color: rgba(105, 105, 105, 0.404);
+    left: 0px;
+    width: 360px;
+    height: 1000000000000000px;
+    margin-top: -5000px;
+    /* padding: 100px; */
+ }
+.buttfd{
+background-color: rgba(105, 105, 105, 0);
+font-size:40px;
+font-family: minecraftrus;
+border: 0px;
+left:0px;
+width: 373px;
+height: 70px;
+border-radius: 0px;
+position: fixed;
+top: 250px;
+}
+.list{
+    color: rgb(119, 119, 119);
+}
+.buttfd:hover{
+background-color: rgba(146, 146, 146, 0.199);
+color:rgb(226, 226, 226);
+transform: scale(0.99);
+}
+.profile{
+    position: fixed;
+    border-radius: 20px;
+    background-color: rgba(105, 105, 105, 0.404);
+    width: 1000px;
+    height: 600px;
+    left: 625px;
+    top: 100px;
+ }
+.nick{
+    position: relative;
+    color: aqua;
+    /* margin-left: 950px;
+    margin-top: -330px; */
+    font-size: 25px;
+    padding: 15px;
+    width: 500px;
+    left: 300px;
+    top: -150px;
+
+}
+
+.name{
+    position: relative;
+    color: aqua;
+    /* margin-left: 950px;
+    margin-top: -1px; */
+    font-size: 25px;
+    padding: 15px;
+    width: 500px;
+    width: 500px;
+    left: 300px;
+    top: -150px;
+    
+
+}
+.syty{
+    position: relative;
+    color: aqua;
+    /* margin-left: 950px;
+    margin-top: -1px; */
+    font-size: 25px;
+    padding: 15px;
+    width: 500px;
+    width: 500px;
+    left: 300px;
+    top: -150px;
+
+}
+.ds{
+    color: #FF4500;
+    /* margin-left: 950px;
+    margin-top: -1; */
+    font-size: 25px;
+    padding: 15px;
+    width: 500px;
+    position: relative;
+    width: 500px;
+    left: 300px;
+    top: -150px;
+
+}
+.devize{
+    color: aqua;
+    /* margin-left: 950px;
+    margin-top: 30px; */
+    font-size: 40px;
+    border-radius: 10px;
+    background-color: rgba(146, 146, 146, 0.438);
+    padding: 15px;
+    width: 500px;
+    position: relative;
+    width: 500px;
+    left: 300px;
+    top: -150px;
+} 
+ .ava{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    position: relative;
+
+}
+.ava1{
+    /* margin-left: 700px;
+    margin-top: 300px; */
+    width: 200px;
+    height: 200px;
+    border: 2px solid aqua;
+    border-radius: 10px;
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+.vl{
+    /* margin-left: 820px;
+    margin-top: 180px; */
+    width: 600px;
+    font-size: 25px;
+    background-color: rgba(146, 146, 146, 0.438);
+    border-radius: 10px;
+    position: relative;
+    left: 200px;
+    top: -30px;
+}
+.dsaa{
+	width: 50px;
+	/* margin-left: -1800px;
+	margin-top: 60px; */
+    position: relative;
+}
+.red{
+    color: #FF4500;
+    padding: 10px;
+    position: relative;
+}
+.settings{
+    font-family: minecraftrus;
+    position: relative;
+    right: 295px;
+    top: 130px;
+    font-size: 20px;
+    background-image: url(button_images/button2.jpg);
+    border-radius:20px;
+    border: 0px;
+    width: 200px;
+    height: 30px;
+    color: aqua;
+}
+.settings:hover{
+    transform: scale(0.99);
+}

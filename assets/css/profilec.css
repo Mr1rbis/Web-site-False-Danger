@@ -1,0 +1,326 @@
+@font-face {
+    font-family: minecraftrus;
+    src: url(fonts/minecraft.ttf);
+   }
+body{
+	background-image: url(bacground_images/mainfon.png);
+	font-family: minecraftrus;
+    text-align: center;
+    background-attachment: fixed;    
+}
+.sett{
+    position: fixed;
+    margin-top: -120px;
+    z-index: -500;
+    }
+ .sett1{
+    position: fixed;
+    z-index: -1000;
+    padding: 5px;
+    /* border: 2px solid aqua; */
+    background-color: rgba(105, 105, 105, 0.404);
+    left: 0px;
+    width: 360px;
+    height: 1000000000000000px;
+    margin-top: -5000px;
+    /* padding: 100px; */
+ }
+.buttfd{
+background-color: rgba(105, 105, 105, 0);
+font-size:40px;
+font-family: minecraftrus;
+border: 0px;
+left:0px;
+width: 373px;
+height: 70px;
+border-radius: 0px;
+position: fixed;
+top: 250px;
+}
+.list{
+    color: rgb(119, 119, 119);
+}
+.buttfd:hover{
+background-color: rgba(146, 146, 146, 0.199);
+color:rgb(226, 226, 226);
+transform: scale(0.99);
+}
+.profile{
+    position: fixed;
+    border-radius: 20px;
+    background-color: rgba(105, 105, 105, 0.404);
+    width: 1000px;
+    height: 600px;
+    left: 625px;
+    top: 100px;
+ }
+.nick{
+    position: relative;
+    color: aqua;
+    /* margin-left: 950px;
+    margin-top: -330px; */
+    font-size: 25px;
+    padding: 15px;
+    width: 500px;
+    left: 300px;
+    top: -150px;
+
+}
+
+.name{
+    position: relative;
+    color: aqua;
+    /* margin-left: 950px;
+    margin-top: -1px; */
+    font-size: 25px;
+    padding: 15px;
+    width: 500px;
+    width: 500px;
+    left: 300px;
+    top: -150px;
+    
+
+}
+.syty{
+    position: relative;
+    color: aqua;
+    /* margin-left: 950px;
+    margin-top: -1px; */
+    font-size: 25px;
+    padding: 15px;
+    width: 500px;
+    width: 500px;
+    left: 300px;
+    top: -150px;
+
+}
+.ds{
+    color: #FF4500;
+    /* margin-left: 950px;
+    margin-top: -1; */
+    font-size: 25px;
+    padding: 15px;
+    width: 500px;
+    position: relative;
+    width: 500px;
+    left: 300px;
+    top: -150px;
+
+}
+.devize{
+    color: aqua;
+    /* margin-left: 950px;
+    margin-top: 30px; */
+    font-size: 40px;
+    border-radius: 10px;
+    background-color: rgba(146, 146, 146, 0.438);
+    padding: 15px;
+    width: 500px;
+    position: relative;
+    width: 500px;
+    left: 300px;
+    top: -150px;
+} 
+ .ava{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    position: relative;
+
+}
+.ava1{
+    /* margin-left: 700px;
+    margin-top: 300px; */
+    width: 200px;
+    height: 200px;
+    border: 2px solid aqua;
+    border-radius: 10px;
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+.vl{
+    /* margin-left: 820px;
+    margin-top: 180px; */
+    width: 600px;
+    font-size: 25px;
+    background-color: rgba(146, 146, 146, 0.438);
+    border-radius: 10px;
+    position: relative;
+    left: 200px;
+    top: -30px;
+}
+.dsaa{
+	width: 50px;
+	/* margin-left: -1800px;
+	margin-top: 60px; */
+    position: relative;
+}
+.red{
+    color: #FF4500;
+    padding: 10px;
+    position: relative;
+}
+.settings{
+    font-family: minecraftrus;
+    position: relative;
+    right: 295px;
+    top: 130px;
+    font-size: 20px;
+    background-image: url(button_images/button2.jpg);
+    border-radius:20px;
+    border: 0px;
+    width: 200px;
+    height: 30px;
+    color: aqua;
+}
+.settings:hover{
+    transform: scale(0.99);
+}
+.rep{
+    position: relative;
+    /* margin: 10px; */
+    /* padding: 10px; */
+    border-radius: 10px;
+    width: 200px;
+    height: 400px;
+    left: 1px;
+    top: 1px;
+}
+.repa{
+    color: rgb(255, 255, 255);
+    border: 1px  solid rgb(255, 255, 255);
+    font-family: minecraftrus;
+    font-size: 20px;
+    height: 40px;
+    width: 200px;
+    background-image: url(button_images/button3.png);
+    border-radius: 20px;
+    position: relative;
+    left: -360px;
+}
+.repa:hover{
+    background-color: rgba(0, 225, 255, 0.705);
+    transform: scale(0.95);
+    transition: 0.3s all;
+}
+.reportbut{
+    color: rgb(255, 255, 255);
+    border: 1px  solid rgb(255, 255, 255);
+    font-family: minecraftrus;
+    font-size: 20px;
+    height: 40px;
+    width: 300px;
+    background-image: url(button_images/button3.png);
+    border-radius: 20px;
+    position: relative;
+}
+.reportbut:hover{
+    background-color: rgba(0, 225, 255, 0.705);
+    transform: scale(0.95);
+    transition: 0.3s all;
+}
+.modal{
+    background-color:#00000080;
+    border-radius:20px;
+    opacity: 0;
+    animation: ani 0.5s forwards;
+    width: 1200px;
+  }
+  
+  @keyframes ani {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+.modal::backdrop{
+opacity: 1;
+background-color: rgba(0, 0, 0, 0.24);
+backdrop-filter: blur(5px);
+opacity: 0;
+animation: ani 0.5s forwards;
+}
+
+@keyframes ani {
+0% {opacity: 0;}
+100% {opacity: 1;}
+}
+.text_line{
+    text-align: center;
+    width: 450px;
+    color: rgb(177, 177, 177);
+    font-size: 25px;
+    border: 2px solid rgb(0, 47, 255);
+    background-color: rgba(0, 47, 255, 0.281);
+    border-radius: 10px;
+    padding: 7px;
+    margin-top: 10px;
+
+}
+
+.text_line::placeholder{
+    color: #6d6d6d;
+}
+.text_line:hover{
+    border: 2px solid rgb(0, 195, 255);
+    transition: 0.3s all;
+}
+.button_vhod{
+    margin-left: 95%;
+    background-image: url(button_images/button3.png);
+    color:aliceblue;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.button_vhod:hover{
+    transform: scale(0.95);
+    transition: 0.3s all;
+}
+.users{
+    font-family: minecraftrus;
+    position: relative;
+    text-align: left;
+    /* border: 2px solid rgb(0, 47, 255); */
+    border-radius: 20px;
+    height: 50%;
+    width: 100%;
+    /* margin-left: 20%; */
+    margin-top: 20px;
+    border-width: 10px;
+    background-color: rgba(61, 61, 61, 0.384);
+    /* border: 2px solid #ff440081; */
+    border: 0;
+}
+.users:hover{
+    background-color: rgba(61, 61, 61, 0.651);
+    /* border: 2px solid #ff440081; */
+}
+.avas{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    border: 1px solid aqua;
+}
+/* .ava1{
+    margin-left: 700px;
+    margin-top: 150px;
+    width: 200px;
+    height: 200px;
+    border: 2px solid aqua;
+    border-radius: 10px;
+} */
+.names{
+    position: relative;
+    vertical-align: bottom;
+    bottom: 30px;
+    color: aqua;
+    font-size: 40px;
+    padding-left: 15px;
+}
+.citys{
+    position: relative;
+    vertical-align: bottom;
+    bottom: 5px;
+    color: #FF4500;
+    font-size: 30px;
+    padding-left: 15px;
+}
