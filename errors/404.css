@@ -1,0 +1,19 @@
+@font-face {
+    font-family: minecraftrus;
+    src: url(minecraft.ttf);}
+body{
+    background-image: url(../img/fon.png);
+    text-align: center;
+    font-family: minecraftrus;
+}
+.err{
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.555);
+    border-radius: 20px;
+    color: brown;
+    font-size: 30px;
+    position: static;
+    width: 650px;
+    padding: 5%;
+    margin: 0 auto;
+}

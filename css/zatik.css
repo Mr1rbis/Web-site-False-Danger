@@ -1,0 +1,43 @@
+@font-face {
+    font-family: minecraftrus;
+    src: url(../fonts/minecraft.ttf);}
+body{
+    /*   background-color: black;*/
+    font-family: minecraftrus;
+    text-align: center;
+    background-image: url(../img/fon.gif);
+    background-attachment: fixed;           
+}
+#axis:hover .move-up {
+    transform: translate(0,-350px);
+    -webkit-transform: translate(0,-350px);
+    -o-transform: translate(0,-350px);
+    -moz-transform: translate(0,-350px);
+}
+.bordertext {
+    margin-top: 520px;
+    z-index: 2;
+}
+.sett{
+    /* position:; */
+    z-index: -1;
+    padding: 5px;
+    /* border: 2px solid aqua; */
+    background-color: rgba(0, 0, 0, 0.37);
+    margin-left:3px;
+    width: 99%;
+    height: 200px;
+    margin-top:-180px;
+    border-radius: 20px;
+    /* padding: 100px; */}
+.sv {
+color:cyan;
+margin-top: 50px;
+}
+.opis {
+color:limegreen;
+}
+.freehosting-2domains-link{
+    position: fixed;
+    margin-top: 1000000px;
+}

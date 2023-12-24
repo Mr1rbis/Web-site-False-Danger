@@ -1,0 +1,93 @@
+@font-face {
+    font-family: minecraftrus;
+    src: url(../fonts/minecraft.ttf);
+   }
+body{
+	background-image: url(../img/fon.png);
+	font-family: minecraftrus;
+    text-align: center;
+    width: 95%;
+    background-attachment: fixed;    
+}
+.obvod{
+-webkit-text-stroke: 1px black;
+}
+h1{
+	font-size: 500%;
+	text-align: center;
+	margin-top: 10%;
+	color:#FF4500;
+}
+h3{
+	font-size: 100%;
+	color:#7FFF00;
+	margin-top: 10%;
+}
+h2{
+    font-size: 50%; 
+    
+}
+.unww{
+	font-size:40px;
+	text-align: center;
+	margin-top: -50px;
+	color:#FFD700;
+}
+.mir{
+	color:#7FFFD4;
+}
+
+.unww{
+	font-size:40px;
+	text-align: center;
+	margin-top: -50px;
+	color:#FFD700;
+}
+.button{
+    color: rgb(255, 255, 255);
+    background-image: url(../img/button3.png);
+    border: 5px  solid rgb(0, 0, 0);
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    width: 30%;
+    font-family: minecraftrus;
+    font-size: 20px;
+}
+.button:hover{
+    background-color: rgba(0, 225, 255, 0.705);
+    transform: scale(0.95);
+    transition: 0.3s all;
+}
+
+.one::before{
+    content: 'falsedanger.ru';
+    }
+.one:hover::before{
+    content: 'Cкопировать IP';
+}
+.clicked::before{
+    content: 'Скопировано!';
+}
+.two::before{
+    content: 'Вы уже играете на сервере?';
+}
+.two:hover::before{ 
+    content: 'Зарегистрироваться на сайте';
+}
+.free{
+    content: 'Бугага';
+}
+.free::before{
+    content: 'Вы уже зарегистрировались на сайте?';
+}
+.free:hover::before{ 
+    content: 'Войти';
+}
+.apph3{
+	margin-top:-20px;
+}
+.pred {
+	margin-top: 20px;
+	color:#00FFFF;
+}

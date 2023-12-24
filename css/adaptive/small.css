@@ -1,0 +1,35 @@
+body, html
+{
+	font-size: 5px !important;
+}
+
+.nav__item
+{
+	padding: 4px 11px !important;
+	margin: 1px !important;
+}
+
+.main__content
+{
+	width: 30% !important;
+	margin: 0 auto !important;
+}
+
+.ui-button
+{
+	padding: 4px 11px !important;
+}
+.apparea{
+	width: 150px;
+	font-size: 10px;
+	margin-top: -5px;
+}
+h1{
+	font-size:35px;
+	text-align: center;
+	color:#FF4500;
+}
+h3{
+	font-size:10px;
+	color:#00d394;
+}

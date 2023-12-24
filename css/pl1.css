@@ -1,0 +1,97 @@
+@font-face {
+    font-family: minecraftrus;
+    src: url(../fonts/minecraft.ttf);
+   }
+body{
+	background-image: url(../img/mainfon.png);
+	font-family: minecraftrus;
+    text-align: center;
+    background-attachment: fixed;    
+}
+.sett{
+    position: fixed;
+    margin-top: -120px;
+    z-index: -500;
+    }
+.buttfd{
+background-color: rgba(105, 105, 105, 0);
+font-size:40px;
+font-family: minecraftrus;
+border: 0px;
+left:0px;
+width: 373px;
+height: 70px;
+border-radius: 0px;
+position: fixed;
+top: 250px;
+}
+.list{
+    color: rgb(119, 119, 119);
+}
+.buttfd:hover{
+background-color: rgba(146, 146, 146, 0.199);
+color:rgb(226, 226, 226);
+transform: scale(0.99);
+}
+.nick{
+    color: aqua;
+    margin-left: 1000px;
+    margin-top: -150px;
+    font-size: 40px;
+    padding: 15px;
+    width: 200px;
+}
+.ds{
+    color: #FF4500;
+    margin-left: 930px;
+    font-size: 40px;
+    padding: 15px;
+    width: 350px;
+}
+.devize{
+    color: aqua;
+    margin-left: 850px;
+    font-size: 40px;
+    border-radius: 10px;
+    background-color: rgba(146, 146, 146, 0.438);
+    padding: 15px;
+    width: 500px;
+}
+.ava{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+.ava1{
+    margin-left: 700px;
+    margin-top: 150px;
+    width: 200px;
+    height: 200px;
+    border: 2px solid aqua;
+    border-radius: 10px;
+}
+.vl{
+    margin-left: 820px;
+    margin-top: 50px;
+    width: 600px;
+    font-size: 25px;
+    background-color: rgba(146, 146, 146, 0.438);
+    border-radius: 10px;
+}
+.dsaa{
+	width: 50px;
+	margin-left: -1800px;
+	margin-top: 60px;
+}
+.users{
+    color: rgb(0, 4, 255);
+}
+.mod{
+    color: #FF4500;
+}
+.user{
+    border: 2px solid rgb(0, 47, 255);
+    width: 1500px;
+    margin-left: 400px;
+    text-align: left;
+}
